@@ -1,0 +1,197 @@
+{
+    "questions":  [
+        {
+            "question": "What does the 'key' prop help React identify?",
+            "options": [
+              "Components that should be optimized",
+              "Elements that have changed",
+              "Unused state variables",
+              "Deprecated lifecycle methods"
+            ],
+            "correctOption": 1,
+            "points": 10
+          },
+          {
+            "question": "In which case is 'useMemo' useful in React?",
+            "options": [
+              "To persist state after re-renders",
+              "To memoize expensive calculations",
+              "To prevent prop drilling",
+              "To add side effects"
+            ],
+            "correctOption": 1,
+            "points": 10
+          },
+          {
+            "question": "What will happen if you update state directly in React?",
+            "options": [
+              "The UI will automatically re-render",
+              "An error will be thrown",
+              "The UI may not re-render as expected",
+              "A warning message will appear in the console"
+            ],
+            "correctOption": 2,
+            "points": 10
+          },
+          {
+            "question": "Which hook would you use to handle side effects in functional components?",
+            "options": ["useReducer", "useState", "useEffect", "useContext"],
+            "correctOption": 2,
+            "points": 10
+          },
+          {
+            "question": "When using 'useEffect', what will an empty dependency array signify?",
+            "options": [
+              "The effect will run after every render",
+              "The effect will only run once on mount",
+              "The effect will run whenever state changes",
+              "The effect will run only on unmount"
+            ],
+            "correctOption": 1,
+            "points": 10
+          },
+          {
+            "question": "How would you update a state object without mutating it directly?",
+            "options": [
+              "Use setState() with a new object",
+              "Directly modify the state object",
+              "Reassign the state variable",
+              "Use push() or pop() methods"
+            ],
+            "correctOption": 0,
+            "points": 10
+          },
+          {
+            "question": "What will happen if a dependency is missing in 'useEffect'?",
+            "options": [
+              "The effect will run only once",
+              "The effect may not sync correctly",
+              "The effect will throw an error",
+              "The component will not render"
+            ],
+            "correctOption": 1,
+            "points": 10
+          },
+          {
+            "question": "What is the default behavior of 'useEffect' without dependencies?",
+            "options": [
+              "Runs only on mount",
+              "Runs on every render",
+              "Runs on unmount",
+              "Runs only on state changes"
+            ],
+            "correctOption": 1,
+            "points": 10
+          },
+          {
+            "question": "How does React identify which items have changed in a list?",
+            "options": [
+              "Using the component name",
+              "Using the 'key' prop",
+              "By comparing state",
+              "By checking component IDs"
+            ],
+            "correctOption": 1,
+            "points": 10
+          },
+          {
+            "question": "Which hook is suitable for managing complex component states?",
+            "options": [
+              "useMemo",
+              "useEffect",
+              "useState",
+              "useReducer"
+            ],
+            "correctOption": 3,
+            "points": 10
+          },
+          {
+            "question": "What will 'useCallback' memoize?",
+            "options": [
+              "A prop",
+              "A function",
+              "A JSX element",
+              "A component"
+            ],
+            "correctOption": 1,
+            "points": 10
+          },
+          {
+            "question": "What purpose does the Context API serve?",
+            "options": [
+              "To manage state updates",
+              "To handle component side effects",
+              "To avoid prop drilling",
+              "To optimize performance"
+            ],
+            "correctOption": 2,
+            "points": 10
+          },
+          {
+            "question": "How can you optimize a component with heavy calculations?",
+            "options": [
+              "Use useMemo",
+              "Use useState",
+              "Use useContext",
+              "Use useEffect"
+            ],
+            "correctOption": 0,
+            "points": 10
+          },
+          {
+            "question": "What will happen if you call 'setState' in an event handler?",
+            "options": [
+              "React will re-render the component immediately",
+              "React will batch updates and re-render once",
+              "The component will crash",
+              "Nothing will happen"
+            ],
+            "correctOption": 1,
+            "points": 10
+          },
+          {
+            "question": "What will cause an infinite loop in 'useEffect'?",
+            "options": [
+              "Using an empty dependency array",
+              "Not providing any dependency array",
+              "Providing a changing dependency array",
+              "Using useEffect without cleanup"
+            ],
+            "correctOption": 2,
+            "points": 10
+          },
+          {
+            "question": "Which React component renders children only when they’re visible?",
+            "options": [
+              "React.Fragment",
+              "Suspense",
+              "Lazy",
+              "Portal"
+            ],
+            "correctOption": 1,
+            "points": 10
+          },
+          {
+            "question": "What is the purpose of React.StrictMode?",
+            "options": [
+              "To prevent errors",
+              "To warn about potential problems in an app",
+              "To improve performance",
+              "To manage dependencies"
+            ],
+            "correctOption": 1,
+            "points": 10
+          },
+          {
+            "question": "When should you use 'React.memo'?",
+            "options": [
+              "To prevent unnecessary re-renders",
+              "To optimize state updates",
+              "To manage side effects",
+              "To debug component performance"
+            ],
+            "correctOption": 0,
+            "points": 10
+          }
+    ]
+}
